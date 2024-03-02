@@ -38,10 +38,19 @@ header button{
 .container{
     background-image: url(Image/1708636100385.jpg);
     height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: calc(0.7);
+}
+.name{
+    margin-left: 5rem;
+    margin-top: 5rem;
 }
 input[type="text"]{
     padding: 7px;
     width: 22rem;
+    border-radius: 5px;
+    border: none;
 }
 .name button{
     background-color: orangered;
@@ -78,7 +87,7 @@ input[type="text"]{
 .section1 img{
     width: 100%;
     height: 25rem;
-    border-radius: 50% 12px 5rem;
+    border-radius: 12px; /*12px 50% 5rem*/
     opacity: calc(0.4);
 }
 .section2{
